@@ -1,5 +1,27 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1"
+  },
+  "name": "mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshkodunishka/MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshkodunishka/MERN/issues"
+  },
+  "homepage": "https://github.com/sshkodunishka/MERN#readme",
+  "description": ""
 }
